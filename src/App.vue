@@ -1,18 +1,18 @@
 <template>
   <div id="app">
-    <leap-box :img="'https://free-materials.com/adm/wp-content/uploads/2017/02/adtDSC_0944.jpg'">
-    </leap-box>
+    <leapbox :img="'https://free-materials.com/adm/wp-content/uploads/2017/02/adtDSC_0944.jpg'">
+    </leapbox>
     <div class="empty-box"></div>
   </div>
 </template>
 
 <script>
-import LeapBox from './components/LeapBox.vue'
+import Leapbox from './components/Leapbox.vue'
 
 export default {
   name: 'app',
   components: {
-    LeapBox
+    Leapbox
   }
 }
 </script>

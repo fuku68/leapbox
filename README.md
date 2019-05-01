@@ -1,4 +1,4 @@
-# leapbox
+# Leapbox
 
 ## Project setup
 ```

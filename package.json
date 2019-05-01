@@ -1,7 +1,9 @@
 {
   "name": "leapbox",
   "version": "0.1.0",
+  "main": "dist/leapbox.js",
   "author": "fuku68",
+  "license": "MIT",
   "private": false,
   "repository": {
     "type": "git",
@@ -20,10 +22,21 @@
     "@vue/cli-plugin-babel": "^3.7.0",
     "@vue/cli-plugin-eslint": "^3.7.0",
     "@vue/cli-service": "^3.7.0",
+    "babel-core": "^6.26.3",
     "babel-eslint": "^10.0.1",
+    "babel-loader": "^8.0.5",
+    "clean-webpack-plugin": "^2.0.1",
+    "cross-env": "^5.2.0",
+    "css-loader": "^2.1.1",
     "eslint": "^5.16.0",
     "eslint-plugin-vue": "^5.0.0",
-    "vue-template-compiler": "^2.5.21"
+    "node-sass": "^4.12.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "uglifyjs-webpack-plugin": "^2.1.2",
+    "vue-loader": "^15.7.0",
+    "vue-template-compiler": "^2.5.21",
+    "webpack-cli": "^3.3.1"
   },
   "eslintConfig": {
     "root": true,
