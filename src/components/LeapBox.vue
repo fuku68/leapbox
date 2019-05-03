@@ -8,7 +8,7 @@
             <div class="close-slash"></div>
             <div class="close-back-slash"></div>
           </div>
-          <img ref="popupImg" @wheel.prevent="onWheel" @mousedown="onMousedown" @mousemove="onMousemove" @mouseup="onMouseup" @mouseout="onMouseup" :style="popupImgStyle">;
+          <img ref="popupImg" @wheel.prevent="onWheel" @mousedown="onMousedown" @mousemove="onMousemove" @mouseup="onMouseup" @mouseout="onMouseup" :style="popupImgStyle">
         </div>
         <div class="black-background" @click="onClose"></div>
       </div>
@@ -94,7 +94,9 @@ export default {
       this.calcSize();
       this.imgWidth = this.imgNaturalWidth * this.initZoom;
       this.imgHeight = this.imgNaturalHeight * this.initZoom;
-      this.poped = true;
+      this.$nextTick(function() {
+        this.poped = true;
+      }.bind(this));
     },
 
     /**

@@ -1,6 +1,6 @@
 {
   "name": "leapbox",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "main": "dist/leapbox.js",
   "author": "fuku68",
   "license": "MIT",
