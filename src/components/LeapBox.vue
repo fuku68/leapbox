@@ -92,8 +92,7 @@ export default {
         return;
 
       this.calcSize();
-      this.imgWidth = this.imgNaturalWidth * this.initZoom;
-      this.imgHeight = this.imgNaturalHeight * this.initZoom;
+      this.reset();
       this.$nextTick(function() {
         this.poped = true;
       }.bind(this));
